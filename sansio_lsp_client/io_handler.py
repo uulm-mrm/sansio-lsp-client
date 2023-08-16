@@ -2,7 +2,7 @@ import cgi
 import json
 import typing as t
 
-from pydantic import parse_obj_as
+from pydantic.v1 import parse_obj_as
 
 from .structs import Request, Response, JSONDict
 

@@ -1,6 +1,6 @@
 import typing as t
 
-from pydantic import BaseModel, PrivateAttr
+from pydantic.v1 import BaseModel, PrivateAttr
 
 if t.TYPE_CHECKING:  # avoid import cycle at runtime
     from .client import Client

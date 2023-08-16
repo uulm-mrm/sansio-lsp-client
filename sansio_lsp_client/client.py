@@ -1,7 +1,7 @@
 import enum
 import typing as t
 
-from pydantic import parse_obj_as, ValidationError
+from pydantic.v1 import parse_obj_as, ValidationError
 
 from .events import (
     ResponseError,

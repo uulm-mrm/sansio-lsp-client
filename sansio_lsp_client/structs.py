@@ -2,7 +2,7 @@ import enum
 import typing as t
 from typing_extensions import Literal
 
-from pydantic import BaseModel
+from pydantic.v1 import BaseModel
 
 # XXX: Replace the non-commented-out code with what's commented out once nested
 # types become a thing in mypy.
